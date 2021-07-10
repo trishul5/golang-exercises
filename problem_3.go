@@ -13,7 +13,7 @@ func squaresMap(n int) map[int]int {
 	return squares
 }
 
-func main() {
+func problem_3() {
 	squaresToNine := squaresMap(9)
 
 	for i, square := range squaresToNine {

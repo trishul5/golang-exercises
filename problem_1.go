@@ -15,6 +15,6 @@ func validNumbers() {
 	}
 }
 
-func main() {
+func problem_1() {
 	validNumbers()
 }
