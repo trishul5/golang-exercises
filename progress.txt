@@ -1,0 +1,5 @@
+1) Solved
+2) Stuck
+3) Solved
+4) Can't do because Go doesn't have a tuple data structure
+5) 
