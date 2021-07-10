@@ -5,3 +5,4 @@
 5) Golang has no classes
 6) Solved
 7) 
+8) Solved
