@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"math"
+	"strconv"
+	"strings"
 )
 
 /*
@@ -22,12 +24,20 @@ import (
 const C = 50
 const H = 30
 
-func calculateValue(D float64) float64 {
-	output := math.Sqrt((2 * C * D) / H)
-	return output
+func calculateValues(D string) string {
+	var values []string
+
+	numbers := strings.Split(D, ",")
+
+	for _, number := range numbers {
+		number, _ := strconv.ParseFloat(number, 10)
+		result := strconv.Itoa(int(math.Round(math.Sqrt((2 * C * number) / H))))
+		values = append(values, result)
+	}
+
+	return strings.Join(values, ",")
 }
 
 func main() {
-	answer := math.Round(calculateValue(100))
-	fmt.Println(answer)
+	fmt.Println(calculateValues("100,150,180"))
 }
