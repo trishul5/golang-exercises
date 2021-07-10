@@ -3,4 +3,5 @@
 3) Solved
 4) Can't do because Go doesn't have a tuple data structure
 5) Golang has no classes
-6) Working on...
+6) Solved
+7) 
