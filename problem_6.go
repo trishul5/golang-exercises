@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 	"strconv"
 	"strings"
@@ -38,6 +37,6 @@ func calculateValues(D string) string {
 	return strings.Join(values, ",")
 }
 
-func main() {
-	fmt.Println(calculateValues("100,150,180"))
-}
+// func main() {
+// 	fmt.Println(calculateValues("100,150,180"))
+// }
