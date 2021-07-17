@@ -6,4 +6,6 @@
 6) Solved
 7) 
 8) Solved
-9) 
+9) Solved
+10) Golang doesn't have a built-in set data structure :/
+11)
